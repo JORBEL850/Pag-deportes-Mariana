@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Deportes que inspiran</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;700&family=Quicksand:wght@400;600&display=swap');
+
+    body {
+      font-family: 'Quicksand', sans-serif;
+      background-color: #FFF7F0;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      color: #444;
+    }
+
+    header {
+      background-color: #FFB6C1;
+      color: #4A4E69;
+      padding: 20px;
+      font-size: 30px;
+      font-family: 'Fredoka', sans-serif;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      background-color: #FFF3E0;
+      padding: 20px;
+      border-radius: 20px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      text-align: left;
+    }
+
+    h1 {
+      color: #FF69B4;
+      font-family: 'Fredoka', sans-serif;
+      font-size: 26px;
+      text-align: center;
+    }
+
+    h2 {
+      color: #A78BFA;
+      font-family: 'Fredoka', sans-serif;
+      font-size: 24px;
+    }
+
+    h4 {
+      color: #FFC107;
+      font-family: 'Fredoka', sans-serif;
+      font-size: 22px;
+    }
+
+    p {
+      text-align: justify;
+      line-height: 1.8;
+      color: #555;
+    }
+
+    iframe {
+      display: block;
+      margin: 20px auto;
+      border-radius: 10px;
+      width: 100%;
+      max-width: 600px;
+      height: 315px;
+    }
+
+    a {
+      display: block;
+      margin-top: 20px;
+      font-size: 18px;
+      text-decoration: none;
+      color: #FF69B4;
+      font-weight: bold;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .sport {
+      margin-bottom: 40px;
+      text-align: center;
+    }
+
+    .sport img {
+      width: 100%;
+      max-width: 600px;
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .benefits {
+      background-color: #FFE0B2;
+      padding: 20px;
+      border-radius: 15px;
+      margin-top: 40px;
+    }
+
+    .benefits ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .benefits li {
+      margin: 10px 0;
+      font-size: 18px;
+    }
+
+    footer {
+      background-color: #FFB6C1;
+      color: #4A4E69;
+      padding: 20px;
+      text-align: center;
+      font-size: 14px;
+    }
+
+    .button-link {
+      display: inline-block;
+      background-color: #FF69B4;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 10px;
+      text-decoration: none;
+      margin-top: 20px;
+    }
+
+    .button-link:hover {
+      background-color: #FF1493;
+    }
+  </style>
+</head>
+<body>
+
+  <header>Deportes que inspiran</header>
+
+  <main>
+    <div class="container">
+      <hr>
+      <h1>¿Qué es el deporte?</h1>
+           <p>El deporte es toda actividad física que tiene como finalidad mejorar la condición física, mental, y emocional, promoviendo valores como el trabajo en equipo, la disciplina y el respeto.</p>
+           <iframe width="560" height="315" src="https://www.youtube.com/embed/JioX50zl69I?si=3YU3NBvomsu_VINv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+           <p>Tomado de https://www.youtube.com/embed/JioX50zl69I?si=3YU3NBvomsu_VINv</p>
+           <hr>
+      <h1>Estos son 6 Deportes que te podrian gustar.</h1>
+
+      <!-- Deportes -->
+      <hr></hr>
+
+      <div class="sport">
+        <h2>🏊 Natación</h2>
+         <p>Deporte acuático esencial en competencias como los Juegos Olímpicos y mundiales de natación.</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/2GYZni3sXo4?si=zlmsu6Xfkv2KTsHG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <p>Tomado de https://www.youtube.com/embed/2GYZni3sXo4?si=zlmsu6Xfkv2KTsHG</p>
+    </div>
+      <hr></hr>
+
+      <div class="sport">
+        <h2>⚽ Fútbol</h2>
+         <p>Es el deporte más popular del mundo, jugado por millones en todos los continentes.</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/p3H6CGlhiBg?si=-gRQjxTjdrES3uGd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <p>Tomado de https://www.youtube.com/embed/p3H6CGlhiBg?si=-gRQjxTjdrES3uGd</p> 
+    </div>
+      <hr></hr>
+
+      <div class="sport">
+        <h2>🏀 Baloncesto</h2>
+         <p>Deporte de equipo dinámico que destaca por su velocidad, agilidad y puntería.</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/0Bav3-b8bUQ?si=9Kwc34dQu77ID77e" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <p>Tomado de https://www.youtube.com/embed/0Bav3-b8bUQ?si=9Kwc34dQu77ID77e</p>   
+    </div>
+      <hr></hr>
+
+      <div class="sport">
+        <h2>🎾 Tenis</h2>
+         <p>Deporte de raqueta muy competitivo que se practica individualmente o en dobles.</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ahlqtO84ZZQ?si=sz0jJj62f-a-jQMP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <p>Tomado de https://www.youtube.com/embed/ahlqtO84ZZQ?si=sz0jJj62f-a-jQMP</p>     
+    </div>
+      <hr></hr>
+        
+      <div class="sport">
+        <h2>⛸️ Patinaje</h2>
+         <p>Puede ser artístico, de velocidad o sobre hielo. Mezcla técnica, agilidad y expresión.</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/rqvxSsHc-4E?si=rzmA9fGHe4PqiG3u" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <p>Tomado de https://www.youtube.com/embed/rqvxSsHc-4E?si=rzmA9fGHe4PqiG3u</p>       
+    </div>
+      <hr></hr>
+
+      <div class="sport">
+        <h2>🏐 Voleibol</h2>
+         <p>Juego de equipo que exige reflejos, estrategia y trabajo en conjunto.</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/T08dXv9vZqI?si=w6RVfi0_L55YZhPr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <p>Tomado de https://www.youtube.com/embed/T08dXv9vZqI?si=w6RVfi0_L55YZhPr</p>   
+    </div>
+      <hr></hr>
+
+      <!-- Beneficios -->
+      <div class="benefits">
+        <h2>💪 Beneficios de practicar deporte</h2>
+        <ul>
+          <li>Mejora la salud física y mental</li>
+          <li>Fomenta la disciplina y la constancia</li>
+          <li>Desarrolla habilidades sociales y trabajo en equipo</li>
+          <li>Disminuye el estrés y la ansiedad</li>
+        </ul>
+        <img src="https://blog.marti.mx/wp-content/uploads/2022/10/cuantos-tipos-de-deporte-hay-1024x683.jpg" alt="Deportes" width="200" height="100">      
+    </div>
+
+    
+    <p>Tomado de https://blog.marti.mx/wp-content/uploads/2022/10/cuantos-tipos-de-deporte-hay-1024x683.jpg</p>  
+
+      <a class="button-link" href="subpagina.html">Conoce más sobre los deportes y descubre tu nueva pasión</a>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 Deportes que Inspiran. Todos los derechos reservados.
+  </footer>
+
+</body>
+</html>
+
